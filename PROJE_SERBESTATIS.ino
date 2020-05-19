@@ -43,8 +43,8 @@ void loop()
   V = 10 * t;
   // m = m / 1000;// grama çevriliyor.
   E = sq(V) * m / 2 ;
-delay(10);
-    lcd.clear(); //burdan itibaren
+delay(20);
+   // lcd.clear(); //burdan itibaren
     lcd.setCursor(0, 0);
     lcd.print("h=");
     lcd.print(distance / 100); //metreye çevirmek için bölü 100
